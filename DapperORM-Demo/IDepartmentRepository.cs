@@ -9,5 +9,6 @@ namespace DapperORM_Demo
     interface IDepartmentRepository
     {
         IEnumerable<Department> GetAllDepartments(); //Stubbed out method
+        void InsertDepartment(string newDepartmentName);
     }
 }
